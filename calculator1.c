@@ -1,7 +1,7 @@
 #include<stdio.h> //We use this to include the input, output libraries that contain printf() and scanf() functions
 
 int main(){//This is the main function where the programs begin execution
-double a,b,answer;//Declare three variables a , b and answer if integer type
+double a,b,answer,d//Declare three variables a , b and answer if integer type
 char symbol;//Declare a character variable called symbol
 printf("Please enter the symbol any of the symbols +, -, / ,* to use for your calculation: ");
 scanf("%c",&symbol);//scanf() is used to receive input from the user
